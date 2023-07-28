@@ -1,0 +1,52 @@
+User Manual for Login Program
+
+Introduction:
+
+The Login Program is a simple GUI application built using Python's tkinter library.
+The purpose of this program is to provide a secure login system with the ability to set and update user credentials. 
+The program consists of two windows, the Login window, and the Main window.
+
+Login Window:
+
+Upon launching the application, you will be presented with the Login window.
+Here, you need to enter your username and password to log in. 
+If you are a first-time user or have not set any credentials yet, you can use the default username "user123" and password "password" for demonstration purposes.
+
+Logging In:
+
+To log in, enter your username and password in the respective fields. 
+If either field is left empty, the program will prompt you to fill in both fields before proceeding. 
+Click the "Login" button to verify your credentials. 
+If the provided username and password match the saved credentials, the program will transition to the Main window. 
+Otherwise, an error message will be displayed, indicating that the login details are invalid.
+
+Main Window:
+
+The Main window is accessible only after successful login. 
+In this window, you will find some basic information displayed along with the program's logo or main image.
+
+Setting New Credentials:
+
+If you wish to change your login credentials, you can do so within the Main window. 
+Enter your desired new username and password in the respective fields provided. 
+Note that both fields must be filled before updating your credentials. 
+Click the "Set New Credentials" button to save your changes. 
+Upon success, a message will appear, confirming that your credentials have been updated.
+
+Exiting the Program:
+
+To exit the program, click the "Exit" button in the Login window. 
+A confirmation prompt will appear, asking if you are sure you want to exit. 
+Choose "Yes" to close the application or "No" to return to the Login window.
+
+Note:
+
+For the purpose of this demonstration, the program uses default login credentials. 
+In a real-world application, it is essential to have secure authentication mechanisms.
+The program allows users to set new credentials in the Main window for illustration purposes. 
+In practice, this feature should be reserved for administrators or privileged users.
+
+Conclusion:
+The Login Program is a basic and user-friendly application that provides a secure login system. 
+It allows users to log in with their credentials, update their login details. 
+Enjoy using the program and feel free to provide feedback for further improvements!
